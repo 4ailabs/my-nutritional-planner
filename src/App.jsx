@@ -1,10 +1,11 @@
 import React from 'react';
-import NutritionalPlanner from './components/NutritionalPlanner';
+import ModernNutritionalPlanner from './components/ModernNutritionalPlanner';
+import './index.css';
 
 function App() {
   return (
     <div className="App">
-      <NutritionalPlanner />
+      <ModernNutritionalPlanner />
     </div>
   );
 }
